@@ -12,9 +12,11 @@ Olá sou o Anderson Juhasc e trabalho como Web Developer, minha área expecifica
 
 Hoje venho falar do que um desenvolvedor é capaz de fazendo quando entende como funciona uma criptomoeda.
 
+Vamos lá!
+
 ## 2. O que é Bitcoin?
 
-Bitcoin(símbolo: ฿; abrev: BTC ou XBT) é uma criptomoeda e sistema de pagamento online baseado em protocolo de código aberto que é independente de qualquer autoridade central(descentralizada). Criada em meados de 2008~2009 por um grupo ou pessoa com o pseudônimo de Satoshi Nakamoto. Disponível na rede social de desenvolvedores github.com e divulgando o seu white paper(papel branco em português) Nakamoto o chamou de sistema eletrônico de pagamento peer to peer(P2P).
+Bitcoin(símbolo: ฿; abrev: BTC ou XBT) é uma criptomoeda e sistema de pagamento online baseado em protocolo de código aberto que é independente de qualquer autoridade central(descentralizada). Criada em meados de 2008~2009 por um grupo ou pessoa com o pseudônimo de Satoshi Nakamoto. Disponível na rede social de desenvolvedores github e teve seu white paper(papel branco em português) divulgado. Satoshi o chamou de sistema eletrônico de pagamento peer to peer(P2P).
 
 O projeto é opensource e é escrito na linguagem C++ onde quem possuir este conhecimento pode ler e melhorar o código em questão.
 
@@ -25,6 +27,10 @@ O Blockchain é um banco de dados distribuído e transações são verificadas p
 ## 4. Como funciona?
 
 ## 5. Onde comprar/vender?
+
+No Brasil já existe algumas casas de cambios que realizam trocas entre BRL x BTC, Real Brasileiro e Bitcoin respectivamente.
+
+![BTCBRL Exchange War](/img/BTCBRL-Exchange-War-01-11-2015.png "BTCBRL Exchange War")
 
 ## 6. Quem aceita?
 
@@ -38,8 +44,10 @@ O Blockchain é um banco de dados distribuído e transações são verificadas p
 
 ## 11. Piscinas(Pools) de Mineração
 
-## 12. Segurança
+## 12. Segurança & Backup
 
 ## 13. Altcoins
 
-## 14. Referências
+## 14. Análise do sistemas de pagamentos Bitcoin
+
+## 15. Referências
