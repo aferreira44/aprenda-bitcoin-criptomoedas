@@ -34,7 +34,7 @@ Hoje no Brasil já existe algumas exchanges(casas de cambios) que realizam troca
 Baixo temos uma imagem do site ExchangeWar.info que informa dados de exchanges:
 ![BTCBRL Exchange War 01-11-2015](/img/BTCBRL-Exchange-War-01-11-2015.png "BTCBRL Exchange War 01-11-2015")
 
-Para utilizar é necessário preencher um cadastro e enviar Bitcoins para trocar por Real Brasileiro ou vice-versa com uma transfência bancária.
+Para utilizar é necessário preencher um cadastro e enviar Bitcoins para trocar por Real Brasileiro ou o contrário com uma transfência bancária.
 
 ## 6. Quem aceita/usa?
 
