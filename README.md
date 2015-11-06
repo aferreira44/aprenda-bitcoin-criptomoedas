@@ -6,7 +6,7 @@ Curso sobre Introdução a Criptomoedas ministrado na XIV SECOMPP (Semana da Com
 
 O curso se destina a programadores que estejam interessados em aprender mais sobre as criptomoedas, opensource, um pouco de criptografia e o funcionamento de redes descentralizadas.
 
-## 1. Sobre o Ministrante
+## 1. Sobre o Ministrando
 
 Olá sou o Anderson Juhasc e trabalho como Web Developer, minha área expecifica é Front-End Development e à 4 anos venho estudando e trabalhando em projetos envolvendo criptomoedas.
 
