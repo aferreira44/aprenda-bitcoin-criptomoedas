@@ -64,6 +64,8 @@ Existem várias formas de utilizar uma carteira de Bitcoin por exemplo via deskt
 
 ## 8. Criando uma carteira
 
+Uma carteira de bitcoin é simplesmente 2 pedaços de texto, sendo uma chave publica e uma chave privada onde a chave publica é utilizada para verificar ou receber saldo e a chave privada é usada para enviar saldo a outra carteira de bitcoin.
+
 ## 9. Fontes(Faucets) de Bitcoin
 
 ## 10. Mineração
@@ -75,5 +77,14 @@ Existem várias formas de utilizar uma carteira de Bitcoin por exemplo via deskt
 ## 13. Altcoins
 
 ## 14. Análise de sistemas de pagamentos Bitcoin
+
+Fazer:
+
+- Formulário de pagamento
+- Gerar um par de chaves pública(endereço) e privada
+- Guardar as chaves no banco de dados
+- Exibir uma página de pagamento
+- Verificar se existe saldo no endereço exibido
+- Mostrar tela de sucesso
 
 ## 15. Referências
