@@ -12,7 +12,8 @@ Olá sou o Anderson Juhasc e trabalho como Web Developer, minha área expecifica
 
 E hoje venho falar do que um desenvolvedor é capaz de fazer quando entende como funciona uma criptomoeda.
 
-Vamos lá!
+- Website
+- github
 
 ## 2. O que é Bitcoin?
 
@@ -38,6 +39,24 @@ Para utilizar é necessário preencher um cadastro e enviar Bitcoins para trocar
 ## 6. Quem aceita/usa?
 
 ## 7. Tipos de carteiras(Wallets)
+
+Existem várias formas de utilizar uma carteira de Bitcoin por exemplo via desktop, smartphone, website, hardware e até mesmo em papel.
+
+### Desktop
+- Bitcoin Core
+- Electrum
+### Smartphone
+- Mycelium
+- Bitcoin Wallet
+### Website
+- Bitgo
+- Green Address
+### Hardware
+- Trezor
+- Ledger Wallet
+### Papel
+- bitcoinpaperwallet.com
+- bitaddress.org
 
 ## 8. Criando uma carteira
 
