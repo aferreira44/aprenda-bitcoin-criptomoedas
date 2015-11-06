@@ -8,7 +8,7 @@ O curso se destina a programadores que estejam interessados em aprender mais sob
 
 ## 1. Sobre o Ministrante
 
-Olá sou o Anderson Juhasc e trabalho como Web Developer, minha área expecifica é Front-End Development e à 4 anos venho estudando e trabalhando com criptomoedas.
+Olá sou o Anderson Juhasc e trabalho como Web Developer, minha área expecifica é Front-End Development e à 4 anos venho estudando e trabalhando em projetos envolvendo criptomoedas.
 
 E hoje venho falar do que um desenvolvedor é capaz de fazer quando entende como funciona uma criptomoeda.
 
@@ -42,23 +42,23 @@ Para utilizar é necessário preencher um cadastro e enviar Bitcoins para trocar
 
 Existem várias formas de utilizar uma carteira de Bitcoin por exemplo via desktop, smartphone, website, hardware e até mesmo em papel.
 
-### Desktop
+#### Desktop
 - Bitcoin Core
 - Electrum
 
-### Smartphone
+#### Smartphone
 - Mycelium
 - Bitcoin Wallet
 
-### Website
+#### Website
 - Bitgo
 - Green Address
 
-### Hardware
+#### Hardware
 - Trezor
 - Ledger Wallet
 
-### Papel
+#### Papel
 - bitcoinpaperwallet.com
 - bitaddress.org
 
