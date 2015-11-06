@@ -45,15 +45,19 @@ Existem várias formas de utilizar uma carteira de Bitcoin por exemplo via deskt
 ### Desktop
 - Bitcoin Core
 - Electrum
+
 ### Smartphone
 - Mycelium
 - Bitcoin Wallet
+
 ### Website
 - Bitgo
 - Green Address
+
 ### Hardware
 - Trezor
 - Ledger Wallet
+
 ### Papel
 - bitcoinpaperwallet.com
 - bitaddress.org
