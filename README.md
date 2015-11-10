@@ -4,7 +4,7 @@ Curso sobre Introdução a Criptomoedas ministrado na XIV SECOMPP (Semana da Com
 
 # Resumo
 
-O curso se destina a programadores que estejam interessados em aprender mais sobre as criptomoedas, opensource, um pouco de criptografia e o funcionamento de redes descentralizadas.
+O curso se destina a programadores e interessados que querem aprender mais sobre as criptomoedas, opensource, um pouco de criptografia e o funcionamento de redes descentralizadas.
 
 ## 1. Sobre o Ministrando
 
@@ -31,6 +31,8 @@ Bitcoin(símbolo: ฿; abrev: BTC ou XBT) é uma criptomoeda e sistema de pagame
 
 O Blockchain é um banco de dados distribuído e transações são verificadas pelos nós da rede P2P para evitar gastos duplos antes de serem registrados no banco e redistribuidos para os nós de rede ativos.
 
+#### Exploradores de Blockchain
+
 ## 4. Como funciona?
 
 ## 5. Onde comprar/vender?
@@ -49,28 +51,29 @@ Para utilizar é necessário preencher um cadastro e enviar Bitcoins para trocar
 Existem várias formas de utilizar uma carteira de Bitcoin por exemplo via desktop, smartphone, website, hardware e até mesmo em papel.
 
 #### Desktop
-- Bitcoin Core
-- Electrum
+- [Bitcoin Core](https://bitcoin.org/pt_BR/download, "Bitcoin Core")
+- [Electrum](https://electrum.org/#home "Electrum")
 
 #### Smartphone
-- Mycelium
-- Bitcoin Wallet
+- [Mycelium](https://mycelium.com/bitcoinwallet "Mycelium")
+- [Bitcoin Wallet](https://play.google.com/store/apps/details?id=de.schildbach.wallet&hl=pt_BR "Bitcoin Wallet")
 
 #### Website
-- Bitgo
-- Green Address
+- [Bitgo](https://www.bitgo.com/ "Bitgo")
+- [Green Address](https://greenaddress.it/en/ "Green Address")
+- [Blockchain Wallet](https://blockchain.info/pt/wallet "Blockchain Wallet")
 
 #### Hardware
-- Trezor
-- Ledger Wallet
+- [Trezor](https://www.bitcointrezor.com/ "Trezor")
+- [Ledger Wallet](https://www.ledgerwallet.com/ "Ledger Wallet")
 
 #### Papel
-- bitcoinpaperwallet.com
-- bitaddress.org
+- [bitcoinpaperwallet.com](https://bitcoinpaperwallet.com/ "bitcoinpaperwallet.com")
+- [bitaddress.org](https://www.bitaddress.org/ "bitaddress.org")
 
 ## 8. Criando uma carteira
 
-Uma carteira de bitcoin é simplesmente 2 pedaços de texto, sendo uma chave publica e uma chave privada onde a chave publica é utilizada para verificar ou receber saldo e a chave privada é usada para enviar saldo a outra carteira de bitcoin.
+Uma carteira de bitcoin é simplesmente 2 pedaços de texto, sendo uma chave publica e uma chave privada onde a chave publica é utilizada para verificar ou receber saldo e a chave privada é usada para enviar saldo e garantir quem é o dono dos bitcoin recebidos.
 
 ## 9. Fontes(Faucets) de Bitcoin
 
