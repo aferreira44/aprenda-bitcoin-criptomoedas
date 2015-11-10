@@ -25,6 +25,7 @@ Bitcoin(símbolo: ฿; abrev: BTC ou XBT) é uma criptomoeda e sistema de pagame
 
 - [O que é Bitcoin?](https://www.youtube.com/watch?v=NPOPgWit0zk, "O que é Bitcoin?")
 - [Bitcoin GitHub History Visualization - Multiple Projects (Jan 2015)](https://www.youtube.com/watch?v=NFFyMmiOSi8 "Bitcoin GitHub History Visualization")
+- [Daft Punk - Technologic](https://www.youtube.com/watch?v=YtdWHFwmd2o, "Daft Punk - Technologic")
 
 ## 3. O que é Blockchain?
 
