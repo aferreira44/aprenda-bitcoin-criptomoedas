@@ -21,6 +21,8 @@ Bitcoin(símbolo: ฿; abrev: BTC ou XBT) é uma criptomoeda e sistema de pagame
 
 É um projeto opensource escrito na linguagem C++, você pode lê-lo, segui-lo ou melhorar o código-fonte.
 
+- [Bitcoin GitHub History Visualization - Multiple Projects (Jan 2015)](https://www.youtube.com/watch?v=NFFyMmiOSi8 "Bitcoin GitHub History Visualization")
+
 ## 3. O que é Blockchain?
 
 O Blockchain é um banco de dados distribuído e transações são verificadas pelos nós da rede P2P para evitar gastos duplos antes de serem registrados no banco e redistribuidos para os nós de rede ativos.
