@@ -2,7 +2,7 @@
 
 Curso sobre Introdução a Criptomoedas ministrado na XIV SECOMPP (Semana da Computação da UNESP Presidente Prudente)
 
-# Resumo
+## Resumo
 
 O curso se destina a programadores e interessados que querem aprender mais sobre as criptomoedas, opensource, um pouco de criptografia e o funcionamento de redes descentralizadas.
 
@@ -29,7 +29,7 @@ Bitcoin(símbolo: ฿; abrev: BTC ou XBT) é uma criptomoeda e sistema de pagame
 
 ## 3. O que é Blockchain?
 
-O Blockchain é um banco de dados distribuído e transações são verificadas pelos nós da rede P2P para evitar gastos duplos antes de serem registrados no banco e redistribuidos para os nós de rede ativos.
+O Blockchain(livro-razão) é um banco de dados distribuído e transações são verificadas pelos nós da rede P2P para evitar gastos duplos antes de serem registrados no banco e redistribuidos para os nós de rede ativos.
 
 #### Exploradores de Blockchain
 
@@ -85,7 +85,9 @@ Uma carteira de bitcoin é simplesmente 2 pedaços de texto, sendo uma chave pub
 
 ## 13. Altcoins
 
-## 14. Análise de sistemas de pagamentos Bitcoin
+## 14. Ferramentas
+
+## 15. Análise de sistemas de pagamentos Bitcoin
 
 Fazer:
 
@@ -93,7 +95,7 @@ Fazer:
 - Gerar um par de chaves pública(endereço) e privada
 - Guardar as chaves no banco de dados
 - Exibir uma página de pagamento
-- Verificar se existe saldo no endereço exibido
+- Verificar se existe saldo no endereço explorando o Blockchain
 - Mostrar tela de sucesso
 
-## 15. Referências
+## 16. Referências
