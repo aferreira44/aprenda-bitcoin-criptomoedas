@@ -32,6 +32,8 @@ Bitcoin(símbolo: ฿; abrev: BTC ou XBT) é uma criptomoeda e sistema de pagame
 
 O Blockchain(livro-razão) é um banco de dados distribuído e transações são verificadas pelos nós da rede P2P para evitar gastos duplos antes de serem registrados no banco e redistribuidos para os nós de rede ativos.
 
+![Tipos de redes](/img/tipos-de-redes.jpg "Tipos de redes")
+
 #### Exploradores de Blockchain
 
 ## 4. Como funciona?
@@ -50,6 +52,8 @@ Para utilizar é necessário preencher um cadastro e enviar Bitcoins para trocar
 ## 7. Tipos de carteiras(Wallets)
 
 Existem várias formas de utilizar uma carteira de Bitcoin por exemplo via desktop, smartphone, website, hardware e até mesmo em papel.
+
+Segue algumas abaixo:
 
 #### Desktop
 - [Bitcoin Core](https://bitcoin.org/pt_BR/download, "Bitcoin Core")
