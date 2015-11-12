@@ -48,24 +48,24 @@ Existem várias formas de utilizar uma carteira de Bitcoin por exemplo via deskt
 
 Segue algumas abaixo:
 
-#### Desktop
+**Desktop:**
 - [Bitcoin Core](https://bitcoin.org/pt_BR/download, "Bitcoin Core")
 - [Electrum](https://electrum.org/#home "Electrum")
 
-#### Smartphone
+**Smartphone:**
 - [Mycelium](https://mycelium.com/bitcoinwallet "Mycelium")
 - [Bitcoin Wallet](https://play.google.com/store/apps/details?id=de.schildbach.wallet&hl=pt_BR "Bitcoin Wallet")
 
-#### Website
+**Website:**
 - [Bitgo](https://www.bitgo.com/ "Bitgo")
 - [Green Address](https://greenaddress.it/en/ "Green Address")
 - [Blockchain Wallet](https://blockchain.info/pt/wallet "Blockchain Wallet")
 
-#### Hardware
+**Hardware:**
 - [Trezor](https://www.bitcointrezor.com/ "Trezor")
 - [Ledger Wallet](https://www.ledgerwallet.com/ "Ledger Wallet")
 
-#### Papel
+**Papel:**
 - [bitcoinpaperwallet.com](https://bitcoinpaperwallet.com/ "bitcoinpaperwallet.com")
 - [bitaddress.org](https://www.bitaddress.org/ "bitaddress.org")
 
@@ -90,20 +90,37 @@ Para utilizar é necessário preencher um cadastro e enviar Bitcoins para trocar
 
 ## 12. Altcoins
 
+Altcoins são cópias do software Bitcoin e algumas foram modificadas gerando inovações.
+
 ![Altcoins](/img/altcoins.png "Altcoins")
 
 ## 13. Ferramentas
 
-#### API's
-#### Exploradores de Blockchain
-#### Bibliotecas
+**API's:**
+
+- [Blockchain.info](https://blockchain.info/api "Blockchain.info")
+- [Bitgo](https://www.bitgo.com/api/ "Bitgo")
+- [Blocktrail](https://www.blocktrail.com/api "Blocktrail")
+
+**Exploradores de Blockchain:**
+
+- [Toshi](https://toshi.io/ "Toshi")
+- [Blockchain.info](https://blockchain.info "Blockchain.info")
+- [Insight](https://insight.bitpay.com/ "Insight")
+- [Blockr](https://blockr.io/ "Blockr")
+
+**Bibliotecas:**
+
+- [Bitcore](https://bitcore.io/ "Bitcore")
+- [CryptoCoinJS](http://cryptocoinjs.com/ "CryptoCoinJS")
+- [PHPCoinAddress](https://github.com/zamgo/PHPCoinAddress "PHPCoinAddress")
 
 ## 14. Análise de sistemas de pagamentos Bitcoin
 
-Fazer:
+**Fazer:**
 
 - Formulário de pagamento
-- Gerar um par de chaves pública(endereço) e privada
+- Gerando endereços de recebimento
 - Pegar a cotacão de alguma casa de câmbio
 - Guardar as chaves no banco de dados
 - Exibir uma página de pagamento
