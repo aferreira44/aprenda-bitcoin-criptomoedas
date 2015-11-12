@@ -36,7 +36,9 @@ O Blockchain(livro-razão) é um banco de dados distribuído onde transações s
 
 ## 4. Como utilizar?
 
-É necessário instalar um "software carteira" e a partir disso você já pode receber seus primeiros bitcoins sem a necessidade de fornecer documentos ou depositar algum valor.
+Bitcoin possibilita o envio de micropagamentos e sua menor unidade é a oitava casa decimal 0.00000001 que chamamos de 1 satoshi.
+
+É necessário instalar um "software carteira" e a partir disso você já poderá receber seus primeiros bitcoins sem a necessidade de fornecer documentos ou depositar algum valor.
 
 Uma carteira de bitcoin é simplesmente 2 pedaços de texto, sendo uma chave publica e uma chave privada onde a chave publica é utilizada para verificar ou receber saldo e a chave privada é usada para enviar saldo e garantir quem é o dono dos bitcoin recebidos.
 
