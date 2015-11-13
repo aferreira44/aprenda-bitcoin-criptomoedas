@@ -199,8 +199,8 @@ No [coinmarketcap](http://coinmarketcap.com/) é possível ver alguns dados inte
 
 - Formulário de pagamento
 - Gerando endereços de recebimento
-- Pegar a cotacão de alguma casa de câmbio
-- Guardar as chaves no banco de dados
+- Pegar a cotacão de bitcoin em Real
+- Guardar dados de pagamento
 - Exibir uma página de pagamento
 - Verificar se existe saldo no endereço explorando o Blockchain
 - Mostrar tela de sucesso
