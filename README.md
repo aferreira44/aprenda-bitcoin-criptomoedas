@@ -12,6 +12,7 @@ Olá sou o Anderson Juhasc e trabalho como Web Developer, minha área expecifica
 
 - [Portfolio](http://andersonjuhasc.com/ "Portfolio")
 - [Github](https://github.com/Anderson-Juhasc "Github")
+- [Facebook](https://www.facebook.com/anderson.juhasc)
 
 ## 2. O que é Bitcoin?
 
@@ -82,9 +83,15 @@ Baixo temos uma imagem do site [exchangewar.info](http://exchangewar.info/coinpr
 
 Para utilizar é necessário preencher um cadastro e enviar Bitcoins para trocar por Real Brasileiro ou o contrário com uma transfência bancária.
 
+Também é possével comprar diretamente de um algum negociador de bitcoin na comunidade.
+
 **Video:**
 
 - [Bitcoin: GUIA PRÁTICO para iniciantes](https://www.youtube.com/watch?v=Xz3UaCk577I)
+
+**Ferramenta:**
+
+- [BTCBRL Conversor Bitcoin para Real Brasileiro](http://www.btcbrl.info/#/)
 
 ## 6. Quem aceita/usa?
 
@@ -118,27 +125,52 @@ Segue alguns links:
 
 Fontes de bitcoins são sites que lhe pagam para acessar suas páginas e preencher com um endereço bitcoin e um campo de CAPTCHA a cada x minutos, mas o tempo em que você irá passar nelas não valerá a pena o ganho.
 
-**Segue algumas:**
+**Segue uma lista:**
 
-- []( "")
+- [FaucetBox](https://faucetbox.com/en/list)
 
 ## 9. Mineração
+
+![Minerando](/img/minerando.jpg)
+
+Minerar Bitcoin hoje em dia não é tão fácil como era antigamente que seria possível utilizar seu próprio computador pessoal.
+
+Hoje em dia a mineração de bitcoin é possível para quem pode investir bastante em infraestrutura para manter maquinas com hardware expecifico trabalhando para encontrar um prêmio a cada 10 minutos e a registrar transações no blockchain.
 
 - [Life Inside a Secret Chinese Bitcoin Mine](https://www.youtube.com/watch?v=K8kua5B5K3I "Life Inside a Secret Chinese Bitcoin Mine")
 
 ## 10. Piscinas(Pools) de Mineração
 
+![Pool de Mineração](/img/bitcoin-pool-mining.jpg)
+
+Pools de mineração são sistemas onde mineradores com baixo poder de hardware se unem para minerar e dividir o lucro proporcional ao poder fornecido por cada um.
+
 ## 11. Segurança & Backup
 
-Assim como qualquer bem de valor, bitcoin deve ser guardado com cuidado.
+![Segurança](/img/seguranca.jpg)
 
-É possível fazer backup no seu email quando utilizar qualquer tipo de carteira.
+Assim como qualquer bem de valor, bitcoin deve ser guardado com cuidado usando uma boa senha ou até mesmo imprimir uma carteira de papel e coloca-la dentro de um cofre.
+
+É possível fazer backup em seu email ou onde quiser quando utilizar qualquer tipo de carteira.
+
+Caso esteja utilizando uma carteira que armazene bitcoin fisicamente por exemplo em um app para celular, deve se tormar muito cuidado e ter um backup para o caso de perder, ser roubado ou simplesmente ter o aparelho quebrado.
 
 ## 12. Altcoins
 
-Altcoins são cópias do software Bitcoin e algumas foram modificadas gerando inovações.
-
 ![Altcoins](/img/altcoins.png "Altcoins")
+
+Altcoins são cópias do software Bitcoin e algumas foram modificadas. Mas basicamente altcoins funcionam da mesma forma que bitcoin.
+
+Algumas altcoins novas podem ser mineradas com mais facilidade.
+
+No [coinmarketcap](http://coinmarketcap.com/) é possível ver alguns dados interessantes de mais de 600 criptomoedas.
+
+**Segue as mais conhecidas:**
+
+- [Litecoin](https://litecoin.org/pt/)
+- [Dogecoin](http://dogecoin.com/)
+- [Dashcoin](http://dashcoin.net/)
+- [Ethereum](https://www.ethereum.org/)
 
 ## 13. Ferramentas
 
@@ -181,18 +213,18 @@ Altcoins são cópias do software Bitcoin e algumas foram modificadas gerando in
 - [Mastering Bitcoin]()
 - [Bitcoin Programming Book]()
 
-**Papers:**
+**Comunidade:**
 
-- []()
+- [Forum BitcoinTalk](https://bitcointalk.org/)
+- [Subreddit bitcoin](https://www.reddit.com/r/bitcoin)
+- [Subreddit obitcoin](https://www.reddit.com/r/obitcoin)
+- [Bitcoin Brasil Facebook 1](https://www.facebook.com/groups/btcbr/)
+- [Bitcoin Brasil Facebook 2](https://www.facebook.com/groups/bitcoin.brasil.2/)
+- [Bitcoin Brasil Desenvolvedores](https://www.facebook.com/groups/btcbrdev/)
 
-**Links:**
+**Canais no Youtube:**
 
-- []()
-
-**Comunidades:**
-
-- []()
-
-**Videos:**
-
-- []()
+- [m1xolyd1an](https://www.youtube.com/channel/UC4VfjvgWBVMH1S3Aij-XvRg)
+- [Rodrigo Souza](https://www.youtube.com/channel/UCdHcO3zYXVco91CIAk1u4PA)
+- [Dâniel Fraga](https://www.youtube.com/channel/UC-nr9CZ9LglgqMOqSSlzytg)
+- [TV Bitcoin Brasil](https://www.youtube.com/channel/UChXxax6rkM-02If1I_-i-xA)
