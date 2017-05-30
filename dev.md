@@ -64,7 +64,7 @@ bitcoin-cli stop
 
 ## JSON-RPC
 
-JSON-RPC is lightweight remote procedure call protocol similar to XMLRPC. It"s designed to be simple. The general mechanism consists of two peers establishing a data connection. During the lifetime of a connection, peers may invoke methods provided by the other peer. To invoke a remote method, a request object serialized as JSON is sent. Unless the request is a notification it must be replied to with a response object serialized as JSON.
+JSON-RPC is lightweight remote procedure call protocol similar to XMLRPC. It's designed to be simple. The general mechanism consists of two peers establishing a data connection. During the lifetime of a connection, peers may invoke methods provided by the other peer. To invoke a remote method, a request object serialized as JSON is sent. Unless the request is a notification it must be replied to with a response object serialized as JSON.
 
 A remote method is invoked by sending a request to a remote service using HTTP or a TCP/IP socket (starting with version 2.0). When using HTTP, the content-type may be defined as application/json.
 
@@ -82,14 +82,14 @@ The receiver of the request must reply with a valid response object to all recei
 
 ### Exemplos
 
-- → {“methdod": “sum", “params": [1,2], “id": 0}
-- ← {“result": 3, “error": null, “id": 0}
+- → {"methdod": "sum", "params": [1,2], "id": 0}
+- ← {"result": 3, "error": null, "id": 0}
 
-- → {“method": “getbalance", “params": [], “id": 1}
-- ← {“result": 79.50000000, “error": null, “id": 1}
+- → {"method": "getbalance", "params": [], "id": 1}
+- ← {"result": 79.50000000, "error": null, "id": 1}
 
-- → {“method": “getnewaddress", “params": [], “id": 2}
-- ← {“result": “mfxyDWEtjcuEPkNXGADaick4DiWbsiTENx", “error": null, “id": 2}
+- → {"method": "getnewaddress", "params": [], "id": 2}
+- ← {"result": "mfxyDWEtjcuEPkNXGADaick4DiWbsiTENx", "error": null, "id": 2}
 
 ## Instalando um Bitcoin client JavaSript JSON-RPC API [node-bitcoin](https://github.com/freewil/node-bitcoin)
 
@@ -107,14 +107,14 @@ node
 
 ```js
 // require the npm package bitcoin
-var bitcoin = require(“bitcoin")
+var bitcoin = require("bitcoin")
 
 // set-up a rpc connection with Bitcoin server
 var client = new bitcoin.Client({
-    user: “rpcuser",
-    pass: “rpcpass",
-    host: “127.0.0.1",
-    port: “18332"
+    user: "rpcuser",
+    pass: "rpcpass",
+    host: "127.0.0.1",
+    port: "18332"
 });
 
 // bitcoin-cli getinfo
@@ -123,15 +123,14 @@ client.getInfo(function(error, info){
 });
 ```
 
-At the time of writing this paragraph, node-bitcoin doesn"t support all Bitcoin RPC
-methods ! It"s supporting methods up to Bitcoin 0.8.0, however this isn"t a
+At the time of writing this paragraph, node-bitcoin doesn't support all Bitcoin RPC methods ! It's supporting methods up to Bitcoin 0.8.0, however this isn't a
 problem. Node-bitcoin has a method called cmd on the bitcoin.Client object, you
 can use it to call any RPC method:
 
 ```js
 // getunconfirmedbalance is supported by Bitcoin Core 0.9.0+
 // not exposed as bitcon.Client method
-client.cmd(“getunconfirmedbalance", function(error, balance){
+client.cmd("getunconfirmedbalance", function(error, balance){
     if(error){
         console.log(error.code);
         console.log(error.message);
@@ -199,7 +198,7 @@ Testnet differs from the mainnet in that:
 - Testnet addresses has version byte 0x6f, mainnet is 0x00.
 - Testnet addresses usually start with m or n.
 - Testnet has minimum mining difficulty of 1.0.
-• Testnet has a different genesis block, you can find it here [http://blockexplorer.com/testnet/b/0](http://blockexplorer.com/testnet/b/0)
+- Testnet has a different genesis block, you can find it here [http://blockexplorer.com/testnet/b/0](http://blockexplorer.com/testnet/b/0)
 - The isStandard() check is disabled, so you can experiment with non standard transactions like funding/spending multi-signatures addresses, replacement transaction, contracts … etc.
 
 ## Obtaining Testnet bitcoins on [Testnet Faucet](https://testnet.manu.backend.hamburg/faucet)
@@ -218,7 +217,7 @@ to get the difficulty of testnet:
 
 bitcoin-cli getdifficulty
 
-difficulty on testnet is increasing because testers use GPU and ASICS to mine on testnet, it’ll take a long time before your first bitcoins are generated, and generated coins will mature after 120 blocks ! In Bitcoin 0.9 generated coins mature at 101 blocks, so mining on testnet isn"t practical.
+difficulty on testnet is increasing because testers use GPU and ASICS to mine on testnet, it’ll take a long time before your first bitcoins are generated, and generated coins will mature after 120 blocks ! In Bitcoin 0.9 generated coins mature at 101 blocks, so mining on testnet isn't practical.
 
 ### Regtest
 
@@ -251,7 +250,7 @@ bitcoin-cli setgenerate true 130
 
 ## Chapter 4: Accounts and Addresses
 
-Bitcoin Core client has an interesting feature called “accounts", which you can use to group receiving addresses under different account names, and you can use it in your Bitcoin application to give each user an account, when an address receives some bitcoins in a transaction, funds (transaction output) will be associated with this address, and the balance of the account associated with this
+Bitcoin Core client has an interesting feature called "accounts", which you can use to group receiving addresses under different account names, and you can use it in your Bitcoin application to give each user an account, when an address receives some bitcoins in a transaction, funds (transaction output) will be associated with this address, and the balance of the account associated with this
 address will be increase accordingly.
 
 When you send bitcoins from an account using RPC method like sendfrom as we will see in Chapter 5: Transactions, Bitcoin Core client will select funds associated with its addresses, and account"s balance will be decreased accordingly. Think of it as a tree structure where Bitcoin Core client has several accounts, and each account has different addresses, and each address has funds from different transactions.
@@ -259,51 +258,61 @@ When you send bitcoins from an account using RPC method like sendfrom as we will
 Wallet > account > address > fund (transaction output).
 
 Note that information about accounts are not transmitted to the Bitcoin network,
-and aren"t recorded in the block chain.
+and aren't recorded in the block chain.
 
 ### Default Account
 
-Bitcoin comes with a default account called “" empty JSON string. Generated
+Bitcoin comes with a default account called "" empty JSON string. Generated
 coins of solo mining are credited to the default account, and sentoaddress method
 debits from the default account as we will see in the discussion of sendtoaddress
 method in Chapter 5: Transactions. In bitcoin-qt default account’s addresses has
 no label, as indicated with (no label) in the next picture:
-35
-Creating New Account
+
+## Creating New Account
+
 You can create a new account or check the address of an existing account using
-getaccountaddress method, which takes one argument <account> the name of
+getaccountaddress method, which takes one argument `account` the name of
 the account.
-getaccountaddress <account>
+
+getaccountaddress `account`
+
 If you give getaccountaddress method a name of an account that doesn’t
 previously exist it will create new account and associate a new receiving address
 to this account. If you want to check the address of the default account:
-bitcoin-cli getaccountaddress “"
-36
+
+bitcoin-cli getaccountaddress ""
+
 if you want to create a new account:
-bitcoin-cli getaccountaddress “farghaly"
-this will create a new account called “farghaly" if it doesn’t exist, and will create a
-new receiving address, and will associate this address to the new account, so any
-bitcoins sent to this address will be credited “farghaly" account.
-Account names are case-sensitive and can be any string except “*" because it’s
+
+bitcoin-cli getaccountaddress "farghaly"
+
+this will create a new account called "farghaly" if it doesn’t exist, and will create a new receiving address, and will associate this address to the new account, so any bitcoins sent to this address will be credited “farghaly" account.
+
+Account names are case-sensitive and can be any string except "*" because it’s
 used as wildcard instead of account name as we will see later in the discussion of
-getbalance method. If you tried to create account with name “*":
-bitcoin-cli getaccountaddress “*"
-you"ll get “Invalid account name" error with code -11.
+getbalance method. If you tried to create account with name "*":
+
+bitcoin-cli getaccountaddress "*"
+
+you'll get "Invalid account name" error with code -11.
 The next two method calls will generate two receiving addresses and associate
 them with two different accounts due to account name case-sensitivity:
+
 bitcoin-cli getaccountaddress foo
 bitcoin-cli getaccountaddress FOO
-getaccountaddress method will return the same address until bitcoins are
-received on that address, it will generate and return new address. why ? to
-improve your anonymity and make it a bit difficult for other people to track how
-many bitcoins you have and where you’re spending them. Here’s how it works
+
+getaccountaddress method will return the same address until bitcoins are received on that address, it will generate and return new address. why ? to improve your anonymity and make it a bit difficult for other people to track how many bitcoins you have and where you’re spending them. Here’s how it works
+
 bitcoin-cli getaccountaddress foo → D1
 bitcoin-cli getaccountaddress foo → D1
+
 someone sent 5 bitcoins to address D1
+
 bitcoin-cli getaccountaddress foo → D2
-37
+
 This doesn’t mean that addresses D1 will become useless afterwards. This
 address will work as long as bitcoin network is up and running.
+
 This method comes in handy in services like online wallet, where you display to
 each user in his profile page his main bitcoin address, like www.blockchain.info
 my wallet page as shown in this figure. When someone send you bitcoins to this
@@ -431,7 +440,7 @@ addresses isn’t a bitcoin feature, implement it yourself.
 If you want to get the public key of an address, use validateaddress method to
 make sure that the address is valid. If the address is valid, this method will return an object with pubkey property containing the public key:
 
-validateaddress <address>
+validateaddress `address`
 
 Here’s an example:
 
@@ -445,7 +454,7 @@ print res[“pubkey"]
 
 this method will return pubkey if the address is valid and in your local wallet.dat file, you can’t use it to get the public key of foreign address. Public key can’t be calculated form address because address is a 160-bit hash of the public key, validateaddress simply fetches pubkey value from your wallet.dat file.
 
-### What"s the use of public key ?
+### What"s the use of public key?
 
 Public key is used to verify signatures created by its mathematically associated
 private key.
@@ -455,7 +464,7 @@ private key.
 If you want to get the private key -in wallet import format- of an address, use
 dumpprivkey method:
 
-dumpprivkey <address>
+dumpprivkey `address`
 
 Note that, this method require unlocked wallet. Use walletpassphrase method to
 unlock your wallet and store the wallet decryption key in memory for <timeout>
