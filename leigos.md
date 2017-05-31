@@ -201,11 +201,21 @@ No [coinmarketcap](http://coinmarketcap.com/) é possível ver alguns dados inte
 
 ## 15. Referências
 
+- [White Paper - Bitcoin - Satoshi Nakamoto](/docs/White-Paper-Bitcoin-Satoshi-Nakamoto.pdf)
+
 **Livros:**
 
-- [Bitcoin - A Moeda na era Digital](https://bitcore.io/ "Bitcoin - A Moeda na era Digital")
-- [Mastering Bitcoin]()
-- [Bitcoin Programming Book]()
+- [Bitcoin - A Moeda Na Era Digital - Fernando Ulrich (PDF)](/docs/Bitcoin-A-Moeda-na-Era-Digital/Bitcoin-A-Moeda-na-Era-Digital.pdf)
+- [Bitcoin - A Moeda Na Era Digital - Fernando Ulrich (ePub)](/docs/Bitcoin-A-Moeda-na-Era-Digital/Bitcoin-A-Moeda-na-Era-Digital.epub)
+- [Bitcoin - A Moeda Na Era Digital - Fernando Ulrich (mobi)](/docs/Bitcoin-A-Moeda-na-Era-Digital/Bitcoin-A-Moeda-na-Era-Digital.mobi)
+
+- [Mastering Bitcoin - Andreas Antonopoulos](/docs/Mastering-Bitcoin-Book-Andreas-Antonopoulos.pdf)
+- [Bitcoin Programming](/docs/Bitcoin-Programming-Book.pdf)
+
+**Cursos:**
+
+- [Bitcoin e Tecnologias de Criptomoedas](https://www.coursera.org/learn/cryptocurrency)
+- [Introduction to Digital Currencies](https://digitalcurrency.unic.ac.cy/free-introductory-mooc/)
 
 **Comunidade:**
 
