@@ -820,15 +820,14 @@ received funds:
 
 ```json
 [
-{
-"address" : "mqwbK1tpnN2f8X6yZwW2ZSqMGKjD8fyhoy",
-"account" : "Foo",
-"amount" : 0.32000000,
-"confirmations" : 1165,
-"txids" : [
-"c3ffb2732f4511f380010bd122a35fc6416101fc7c073a0ab
-4a16a39cbb5b4ed"
-]
+  {
+    "address" : "mqwbK1tpnN2f8X6yZwW2ZSqMGKjD8fyhoy",
+  "account" : "Foo",
+  "amount" : 0.32000000,
+  "confirmations" : 1165,
+  "txids" : [
+    "c3ffb2732f4511f380010bd122a35fc6416101fc7c073a0ab4a16a39cbb5b4ed"
+  ]
 },
 {
 "address" : "mveBRwjGDs5nQ4oofEhsb6y2W2bqmgeiSD",
